@@ -38,7 +38,7 @@ twat += p[i].wtime;
 }
 awat = (float)twat / n;
 atur = (float)ttur / n;
-printf("\n FCFS Scheduling\n\n");
+printf("\n Prioroty Based Scheduling\n\n");
 for(i=0; i<28; i++)
 printf("-");
 printf("\nProcess B-Time T-Time W-Time\n");
