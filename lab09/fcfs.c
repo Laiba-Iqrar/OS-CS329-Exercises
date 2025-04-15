@@ -18,7 +18,7 @@ scanf("%d", &p[i].btime); p[i].pid = i+1;
 p[0].wtime = 0;
 for(i=0; i<n; i++) {
 p[i+1].wtime = p[i].wtime + p[i].btime;
-p[i].ttime = p[i].wtime + p[i].btime;
+p[i].ttime = p[i+1].wtime ;
 }
 ttur = twat = 0;
 for(i=0; i<n; i++) {
