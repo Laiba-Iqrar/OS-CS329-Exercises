@@ -16,7 +16,6 @@ for(i = 0; i < n; i++) {
     scanf("%d %d", &p[i].btime, &p[i].pri);
     p[i].pid = i + 1;
 }
-// Sort processes based on priority (higher priority first)
 struct process temp;
 for(i = 0; i < n - 1; i++) {
     for(j = i + 1; j < n; j++) {
